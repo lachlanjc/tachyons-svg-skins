@@ -5,14 +5,14 @@
   "main": "src/tachyons-svg-skins.css",
   "homepage": "http://github.com/lachlanjc/tachyons-svg-skins",
   "description": "Performance based css module.",
-  "keywords": ["colors", "design", "css", "tachyons", "postcss"],
+  "keywords": ["colors", "design", "css", "svg", "tachyons", "postcss"],
   "repository": {
     "type": "git",
     "url": "http://github.com/lachlanjc/tachyons-svg-skins.git"
   },
   "bugs": {
     "url": "https://github.com/lachlanjc/tachyons-svg-skins/issues",
-    "email": "hi@mrmrs.cc"
+    "email": "lachlan.campbell@icloud.com"
   },
   "author": {
     "name": "lachlanjc",

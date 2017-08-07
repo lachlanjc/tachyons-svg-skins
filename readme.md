@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-svg-skins
+git clone https://github.com/lachlanjc/tachyons-svg-skins
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-svg-skins.git
+git clone git@github.com:lachlanjc/tachyons-svg-skins.git
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Import the css module
 @import "tachyons-svg-skins";
 ```
 
-Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/lachlanjc/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
@@ -190,4 +190,3 @@ Running `$ npm start` will process the source css and place the built css in the
 ## License
 
 ISC
-
