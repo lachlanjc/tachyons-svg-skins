@@ -1,45 +1,39 @@
 {
-  "name": "tachyons-skins",
-  "version": "4.1.0",
-  "style": "src/tachyons-skins.css",
-  "main": "src/tachyons-skins.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-skins",
+  "name": "tachyons-svg-skins",
+  "version": "0.0.1",
+  "style": "src/tachyons-svg-skins.css",
+  "main": "src/tachyons-svg-skins.css",
+  "homepage": "http://github.com/lachlanjc/tachyons-svg-skins",
   "description": "Performance based css module.",
-  "keywords": [
-    "colors",
-    "design",
-    "css",
-    "tachyons",
-    "postcss"
-  ],
+  "keywords": ["colors", "design", "css", "tachyons", "postcss"],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-skins.git"
+    "url": "http://github.com/lachlanjc/tachyons-svg-skins.git"
   },
   "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-skins/issues",
+    "url": "https://github.com/lachlanjc/tachyons-svg-skins/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
-    "name": "mrmrs",
-    "email": "hi@mrmrs.cc",
-    "url": "http://mrmrs.cc"
+    "name": "lachlanjc",
+    "email": "lachlan.campbell@icloud.com",
+    "url": "https://lachlanjc.me"
   },
   "license": "ISC",
   "devDependencies": {
     "tachyons-cli": "^1.0.11",
-    "watch": "^1.0.1"
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "npm run build:watch",
-    "build:css": "tachyons src/tachyons-skins.css > css/tachyons-skins.css",
-    "build:minify": "tachyons src/tachyons-skins.css --minify > css/tachyons-skins.min.css",
-    "build:docs": "tachyons src/tachyons-skins.css --generate-docs --package=../../package.json > readme.md",
+    "build:css": "tachyons src/tachyons-svg-skins.css > css/tachyons-svg-skins.css",
+    "build:minify": "tachyons src/tachyons-svg-skins.css --minify > css/tachyons-svg-skins.min.css",
+    "build:docs": "tachyons src/tachyons-svg-skins.css --generate-docs --package=../../package.json > readme.md",
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
   },
   "metadata": {
     "category": "theming",
-    "isCore": true
+    "isCore": false
   }
 }
